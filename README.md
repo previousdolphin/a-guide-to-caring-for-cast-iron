@@ -2,6 +2,8 @@
 
 A myth-busting field guide to caring for bare cast iron cookware, written to definitively settle the "never use soap" debate with real chemistry, a daily care routine, a seasoning walkthrough, a myth-vs-fact comparison table, and troubleshooting for rust, stickiness and sticking food. It closes with a working form where visitors can submit their own kitchen disputes for adjudication.
 
+The design is an editorial long-read: a dark, scroll-driven hero (a skillet seen from above, drawn on a canvas, with words orbiting the rim and embers rising), then an ivory reading column with a sticky side contents list, tabbed charts (oil smoke points; why cast iron holds heat), an old-habit vs. method comparison, and tabbed troubleshooting case files. Plain HTML, CSS and JavaScript — no build step.
+
 ## 🌐 Live Site
 
 Your site is live and automatically hosted at: https://previousdolphin.github.io/a-guide-to-caring-for-cast-iron/
