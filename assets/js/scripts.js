@@ -481,6 +481,18 @@
   }
 
   /* ------------------------------------------------------------
+     Example arguments fill the form's text box
+     ------------------------------------------------------------ */
+  var disputeBox = document.getElementById("dispute");
+  Array.prototype.forEach.call(document.querySelectorAll("[data-example]"), function (btn) {
+    btn.addEventListener("click", function () {
+      if (!disputeBox) return;
+      disputeBox.value = btn.getAttribute("data-example");
+      disputeBox.focus();
+    });
+  });
+
+  /* ------------------------------------------------------------
      Reveal on scroll
      ------------------------------------------------------------ */
   var revealables = document.querySelectorAll(".block .reading, .block .reading-wide, .glance, .ask-inner");

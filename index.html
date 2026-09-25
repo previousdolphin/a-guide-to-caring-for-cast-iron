@@ -34,7 +34,7 @@
         <li><a href="#faq">FAQ</a></li>
       </ul>
     </nav>
-    <a class="header-cta" href="#ask">Settle a dispute</a>
+    <a class="header-cta" href="#ask">Settle an argument</a>
   </div>
 </header>
 <!-- HEADER END -->
@@ -87,7 +87,7 @@
       <li><a href="#myths"><span class="pill">Myth vs. fact</span></a></li>
       <li><a href="#trouble"><span class="pill">Troubleshooting</span></a></li>
       <li><a href="#faq"><span class="pill">Quick answers</span></a></li>
-      <li><a href="#ask"><span class="pill">Send a dispute</span></a></li>
+      <li><a href="#ask"><span class="pill">Settle an argument</span></a></li>
     </ol>
   </nav>
 
@@ -293,7 +293,7 @@
     <section id="trouble" class="block">
       <div class="reading">
         <h2 class="h-section">Troubleshooting</h2>
-        <p>Most problems come from the same three causes: too much oil, not enough heat, or water left sitting. A few case files from the dispute desk:</p>
+        <p>Most problems come from the same three causes: too much oil, not enough heat, or water left sitting. Here’s how we’d rule on a few classic household arguments:</p>
       </div>
 
       <div class="cases reading-wide" data-tabs>
@@ -354,9 +354,14 @@
     <section id="ask" class="block ask">
       <div class="ask-inner">
         <div class="ask-copy">
-          <p class="kicker">The dispute desk</p>
-          <h2 class="h-display">Still arguing? Send us the dispute.</h2>
-          <p>Every family has a hill someone’s willing to die on — soap, metal spatulas, whether Grandma’s skillet can survive the dishwasher (it cannot). Tell us the argument and which side you’re on. We’ll settle it, chemistry in hand.</p>
+          <p class="kicker">Kitchen court</p>
+          <h2 class="h-display">Arguing about a pan at home? Let us settle it.</h2>
+          <p>Someone in your house swears soap ruins the skillet. Someone else soaks it overnight. Grandma’s pan is rusty and your uncle wants to bin it. Send us the story and pick a side. We’ll reply with a ruling, and the chemistry behind it, so you can take it back to the kitchen.</p>
+          <ol class="ask-steps">
+            <li><span>1</span>Tell us what the argument is about</li>
+            <li><span>2</span>Pick your side, or stay neutral</li>
+            <li><span>3</span>Get a ruling by email that you can show the other side</li>
+          </ol>
         </div>
 
         <form class="ask-form" action="https://yourveryownweb.site/f/69rd8fyvwx2fwbvp" method="POST">
@@ -369,19 +374,25 @@
             <input type="email" id="email" name="email" required autocomplete="email">
           </div>
           <fieldset class="form-row sides">
-            <legend>Which side are you on?</legend>
+            <legend>Whose side are you on?</legend>
             <label><input type="radio" name="side" value="Team Soap" required><span>Team Soap</span></label>
             <label><input type="radio" name="side" value="Team No Soap"><span>Team No Soap</span></label>
             <label><input type="radio" name="side" value="Genuinely Undecided"><span>Undecided</span></label>
             <label><input type="radio" name="side" value="Just Here For The Drama"><span>Here for the drama</span></label>
           </fieldset>
           <div class="form-row">
-            <label for="dispute">Describe the dispute</label>
-            <textarea id="dispute" name="dispute" rows="5" required placeholder="e.g. My roommate soaks the pan in the sink overnight and swears it’s fine."></textarea>
+            <label for="dispute">What’s the argument?</label>
+            <div class="examples" aria-label="Example arguments to start from">
+              <span class="examples-label">Need a starting point?</span>
+              <button type="button" data-example="My roommate leaves the skillet soaking in the sink overnight and says it’s fine because they never use soap.">The overnight soak</button>
+              <button type="button" data-example="My dad says one drop of dish soap will ruin our cast iron forever. I say modern soap is fine. Who’s right?">Soap or no soap</button>
+              <button type="button" data-example="I inherited my grandmother’s skillet and it’s covered in rust. My family says to throw it out. Can it be saved?">Grandma’s rusty pan</button>
+            </div>
+            <textarea id="dispute" name="dispute" rows="5" required placeholder="Who said what, and what are you arguing about? A few sentences is plenty."></textarea>
           </div>
           <!-- Spam trap, hidden from real visitors -->
           <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
-          <button type="submit" class="btn">Submit the dispute <span aria-hidden="true">→</span></button>
+          <button type="submit" class="btn">Send it to kitchen court <span aria-hidden="true">→</span></button>
         </form>
       </div>
     </section>
@@ -423,7 +434,7 @@
       <div>
         <h3>Get in touch</h3>
         <ul>
-          <li><a href="#ask">Send a dispute</a></li>
+          <li><a href="#ask">Settle a kitchen argument</a></li>
         </ul>
       </div>
     </div>
